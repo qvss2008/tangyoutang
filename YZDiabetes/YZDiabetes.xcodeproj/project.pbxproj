@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1D9D7D1A74C35600CF2FC4 /* YZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9D7C1A74C35600CF2FC4 /* YZLoginViewController.m */; };
+		5E1D9D801A74C40800CF2FC4 /* YZLoginLogoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9D7F1A74C40800CF2FC4 /* YZLoginLogoCell.m */; };
+		5E1D9D841A74C95500CF2FC4 /* YZGlobalColorSetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9D831A74C95500CF2FC4 /* YZGlobalColorSetUtil.m */; };
+		5E1D9D9F1A74D36B00CF2FC4 /* YZSugarDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9D9E1A74D36B00CF2FC4 /* YZSugarDataViewController.m */; };
+		5E1D9DA51A74D3BD00CF2FC4 /* YZSugarRemindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DA41A74D3BD00CF2FC4 /* YZSugarRemindViewController.m */; };
+		5E1D9DAB1A74D9F900CF2FC4 /* YZSFDFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DAA1A74D9F900CF2FC4 /* YZSFDFirstCell.m */; };
+		5E1D9DAE1A74DA1100CF2FC4 /* YZSFDSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DAD1A74DA1100CF2FC4 /* YZSFDSecondCell.m */; };
+		5E1D9DB11A74DA3100CF2FC4 /* YZSFDThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DB01A74DA3100CF2FC4 /* YZSFDThirdCell.m */; };
+		5E1D9DB41A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DB31A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m */; };
+		5E1D9DBE1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DBD1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m */; };
+		5E1D9DC11A74F34100CF2FC4 /* YZSSHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DC01A74F34100CF2FC4 /* YZSSHeadCell.m */; };
+		5E1D9DC41A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DC31A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m */; };
+		5E1D9DC71A7513AA00CF2FC4 /* YZSSshopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DC61A7513AA00CF2FC4 /* YZSSshopViewController.m */; };
+		5E1D9DCA1A75147400CF2FC4 /* YZSSshopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DC91A75147400CF2FC4 /* YZSSshopCell.m */; };
+		5E1D9DCD1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DCC1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m */; };
+		5E1D9DD01A75258C00CF2FC4 /* YZSSfeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DCF1A75258C00CF2FC4 /* YZSSfeedBackViewController.m */; };
+		5E1D9DD31A752AAC00CF2FC4 /* YZAdaptiveUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D9DD21A752AAC00CF2FC4 /* YZAdaptiveUtil.m */; };
+		5E6B7E721A732F8A00C92833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E711A732F8A00C92833 /* main.m */; };
+		5E6B7E751A732F8A00C92833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E741A732F8A00C92833 /* AppDelegate.m */; };
+		5E6B7E7B1A732F8A00C92833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6B7E791A732F8A00C92833 /* Main.storyboard */; };
+		5E6B7E7D1A732F8A00C92833 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E6B7E7C1A732F8A00C92833 /* Images.xcassets */; };
+		5E6B7E801A732F8A00C92833 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6B7E7E1A732F8A00C92833 /* LaunchScreen.xib */; };
+		5E6B7E8C1A732F8A00C92833 /* YZDiabetesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E8B1A732F8A00C92833 /* YZDiabetesTests.m */; };
+		5E6B7E981A73306E00C92833 /* YZMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E971A73306E00C92833 /* YZMainTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E6B7E861A732F8A00C92833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6B7E641A732F8A00C92833 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6B7E6B1A732F8A00C92833;
+			remoteInfo = YZDiabetes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E1D9D7B1A74C35600CF2FC4 /* YZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLoginViewController.h; sourceTree = "<group>"; };
+		5E1D9D7C1A74C35600CF2FC4 /* YZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLoginViewController.m; sourceTree = "<group>"; };
+		5E1D9D7E1A74C40800CF2FC4 /* YZLoginLogoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZLoginLogoCell.h; sourceTree = "<group>"; };
+		5E1D9D7F1A74C40800CF2FC4 /* YZLoginLogoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZLoginLogoCell.m; sourceTree = "<group>"; };
+		5E1D9D821A74C95500CF2FC4 /* YZGlobalColorSetUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZGlobalColorSetUtil.h; sourceTree = "<group>"; };
+		5E1D9D831A74C95500CF2FC4 /* YZGlobalColorSetUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZGlobalColorSetUtil.m; sourceTree = "<group>"; };
+		5E1D9D8A1A74CF7300CF2FC4 /* pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pch.pch; sourceTree = "<group>"; };
+		5E1D9D9D1A74D36B00CF2FC4 /* YZSugarDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSugarDataViewController.h; sourceTree = "<group>"; };
+		5E1D9D9E1A74D36B00CF2FC4 /* YZSugarDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSugarDataViewController.m; sourceTree = "<group>"; };
+		5E1D9DA31A74D3BD00CF2FC4 /* YZSugarRemindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSugarRemindViewController.h; sourceTree = "<group>"; };
+		5E1D9DA41A74D3BD00CF2FC4 /* YZSugarRemindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSugarRemindViewController.m; sourceTree = "<group>"; };
+		5E1D9DA91A74D9F900CF2FC4 /* YZSFDFirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSFDFirstCell.h; sourceTree = "<group>"; };
+		5E1D9DAA1A74D9F900CF2FC4 /* YZSFDFirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSFDFirstCell.m; sourceTree = "<group>"; };
+		5E1D9DAC1A74DA1100CF2FC4 /* YZSFDSecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSFDSecondCell.h; sourceTree = "<group>"; };
+		5E1D9DAD1A74DA1100CF2FC4 /* YZSFDSecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSFDSecondCell.m; sourceTree = "<group>"; };
+		5E1D9DAF1A74DA3100CF2FC4 /* YZSFDThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSFDThirdCell.h; sourceTree = "<group>"; };
+		5E1D9DB01A74DA3100CF2FC4 /* YZSFDThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSFDThirdCell.m; sourceTree = "<group>"; };
+		5E1D9DB21A74DA5600CF2FC4 /* YZSugarFriendDonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSugarFriendDonViewController.h; sourceTree = "<group>"; };
+		5E1D9DB31A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSugarFriendDonViewController.m; sourceTree = "<group>"; };
+		5E1D9DB81A74DE5E00CF2FC4 /* YZSugarFriendDonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSugarFriendDonDelegate.h; sourceTree = "<group>"; };
+		5E1D9DBC1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSugarServiceTableViewController.h; sourceTree = "<group>"; };
+		5E1D9DBD1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSugarServiceTableViewController.m; sourceTree = "<group>"; };
+		5E1D9DBF1A74F34100CF2FC4 /* YZSSHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSHeadCell.h; sourceTree = "<group>"; };
+		5E1D9DC01A74F34100CF2FC4 /* YZSSHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSHeadCell.m; sourceTree = "<group>"; };
+		5E1D9DC21A75061000CF2FC4 /* YZSSpersonDetilTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSpersonDetilTableViewController.h; sourceTree = "<group>"; };
+		5E1D9DC31A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSpersonDetilTableViewController.m; sourceTree = "<group>"; };
+		5E1D9DC51A7513AA00CF2FC4 /* YZSSshopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSshopViewController.h; sourceTree = "<group>"; };
+		5E1D9DC61A7513AA00CF2FC4 /* YZSSshopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSshopViewController.m; sourceTree = "<group>"; };
+		5E1D9DC81A75147400CF2FC4 /* YZSSshopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSshopCell.h; sourceTree = "<group>"; };
+		5E1D9DC91A75147400CF2FC4 /* YZSSshopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSshopCell.m; sourceTree = "<group>"; };
+		5E1D9DCB1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSgoodsDetilViewController.h; sourceTree = "<group>"; };
+		5E1D9DCC1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSgoodsDetilViewController.m; sourceTree = "<group>"; };
+		5E1D9DCE1A75258C00CF2FC4 /* YZSSfeedBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSSfeedBackViewController.h; sourceTree = "<group>"; };
+		5E1D9DCF1A75258C00CF2FC4 /* YZSSfeedBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSSfeedBackViewController.m; sourceTree = "<group>"; };
+		5E1D9DD11A752AAC00CF2FC4 /* YZAdaptiveUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZAdaptiveUtil.h; sourceTree = "<group>"; };
+		5E1D9DD21A752AAC00CF2FC4 /* YZAdaptiveUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZAdaptiveUtil.m; sourceTree = "<group>"; };
+		5E6B7E6C1A732F8A00C92833 /* YZDiabetes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZDiabetes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6B7E701A732F8A00C92833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6B7E711A732F8A00C92833 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E6B7E731A732F8A00C92833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E6B7E741A732F8A00C92833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E6B7E7A1A732F8A00C92833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E6B7E7C1A732F8A00C92833 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E6B7E7F1A732F8A00C92833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E6B7E851A732F8A00C92833 /* YZDiabetesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZDiabetesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6B7E8A1A732F8A00C92833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E6B7E8B1A732F8A00C92833 /* YZDiabetesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDiabetesTests.m; sourceTree = "<group>"; };
+		5E6B7E961A73306E00C92833 /* YZMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZMainTableViewController.h; path = ../../YZMainTableViewController.h; sourceTree = "<group>"; };
+		5E6B7E971A73306E00C92833 /* YZMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZMainTableViewController.m; path = ../../YZMainTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E6B7E691A732F8A00C92833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6B7E821A732F8A00C92833 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1D9D731A74C2D600CF2FC4 /* baseUtil */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D821A74C95500CF2FC4 /* YZGlobalColorSetUtil.h */,
+				5E1D9D831A74C95500CF2FC4 /* YZGlobalColorSetUtil.m */,
+				5E1D9DD11A752AAC00CF2FC4 /* YZAdaptiveUtil.h */,
+				5E1D9DD21A752AAC00CF2FC4 /* YZAdaptiveUtil.m */,
+			);
+			path = baseUtil;
+			sourceTree = "<group>";
+		};
+		5E1D9D741A74C2DE00CF2FC4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D8F1A74D24900CF2FC4 /* sugarFriendDon */,
+				5E1D9D8E1A74D24000CF2FC4 /* sugarData */,
+				5E1D9D8D1A74D22800CF2FC4 /* sugarRemind */,
+				5E1D9D8C1A74D20A00CF2FC4 /* sugarService */,
+				5E1D9D8B1A74D1FE00CF2FC4 /* common */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		5E1D9D751A74C2E500CF2FC4 /* dataController */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D941A74D27E00CF2FC4 /* sugarFriendDon */,
+				5E1D9D931A74D27600CF2FC4 /* sugarData */,
+				5E1D9D921A74D26D00CF2FC4 /* sugarRemind */,
+				5E1D9D911A74D26400CF2FC4 /* sugarService */,
+				5E1D9D901A74D25A00CF2FC4 /* common */,
+			);
+			path = dataController;
+			sourceTree = "<group>";
+		};
+		5E1D9D761A74C2EC00CF2FC4 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D991A74D2A800CF2FC4 /* sugarFriendDon */,
+				5E1D9D981A74D2A000CF2FC4 /* sugarData */,
+				5E1D9D971A74D29900CF2FC4 /* sugarRemind */,
+				5E1D9D961A74D29200CF2FC4 /* sugarService */,
+				5E1D9D951A74D28900CF2FC4 /* common */,
+				5E1D9D771A74C2EC00CF2FC4 /* users */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		5E1D9D771A74C2EC00CF2FC4 /* users */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E961A73306E00C92833 /* YZMainTableViewController.h */,
+				5E6B7E971A73306E00C92833 /* YZMainTableViewController.m */,
+				5E1D9D7B1A74C35600CF2FC4 /* YZLoginViewController.h */,
+				5E1D9D7C1A74C35600CF2FC4 /* YZLoginViewController.m */,
+				5E1D9D7E1A74C40800CF2FC4 /* YZLoginLogoCell.h */,
+				5E1D9D7F1A74C40800CF2FC4 /* YZLoginLogoCell.m */,
+			);
+			path = users;
+			sourceTree = "<group>";
+		};
+		5E1D9D8B1A74D1FE00CF2FC4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		5E1D9D8C1A74D20A00CF2FC4 /* sugarService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sugarService;
+			path = YZDiabetes/models/sugarService;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D8D1A74D22800CF2FC4 /* sugarRemind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sugarRemind;
+			sourceTree = "<group>";
+		};
+		5E1D9D8E1A74D24000CF2FC4 /* sugarData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sugarData;
+			sourceTree = "<group>";
+		};
+		5E1D9D8F1A74D24900CF2FC4 /* sugarFriendDon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sugarFriendDon;
+			sourceTree = "<group>";
+		};
+		5E1D9D901A74D25A00CF2FC4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = common;
+			path = YZDiabetes/models/common;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D911A74D26400CF2FC4 /* sugarService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sugarService;
+			path = YZDiabetes/models/sugarService;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D921A74D26D00CF2FC4 /* sugarRemind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sugarRemind;
+			path = YZDiabetes/models/sugarRemind;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D931A74D27600CF2FC4 /* sugarData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sugarData;
+			path = YZDiabetes/models/sugarData;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D941A74D27E00CF2FC4 /* sugarFriendDon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sugarFriendDon;
+			path = YZDiabetes/models/sugarFriendDon;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D951A74D28900CF2FC4 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = common;
+			path = YZDiabetes/models/common;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D961A74D29200CF2FC4 /* sugarService */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9DBC1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.h */,
+				5E1D9DBD1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m */,
+				5E1D9DBF1A74F34100CF2FC4 /* YZSSHeadCell.h */,
+				5E1D9DC01A74F34100CF2FC4 /* YZSSHeadCell.m */,
+				5E1D9DC21A75061000CF2FC4 /* YZSSpersonDetilTableViewController.h */,
+				5E1D9DC31A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m */,
+				5E1D9DC51A7513AA00CF2FC4 /* YZSSshopViewController.h */,
+				5E1D9DC61A7513AA00CF2FC4 /* YZSSshopViewController.m */,
+				5E1D9DC81A75147400CF2FC4 /* YZSSshopCell.h */,
+				5E1D9DC91A75147400CF2FC4 /* YZSSshopCell.m */,
+				5E1D9DCB1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.h */,
+				5E1D9DCC1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m */,
+				5E1D9DCE1A75258C00CF2FC4 /* YZSSfeedBackViewController.h */,
+				5E1D9DCF1A75258C00CF2FC4 /* YZSSfeedBackViewController.m */,
+			);
+			name = sugarService;
+			path = YZDiabetes/models/sugarService;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D971A74D29900CF2FC4 /* sugarRemind */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9DA31A74D3BD00CF2FC4 /* YZSugarRemindViewController.h */,
+				5E1D9DA41A74D3BD00CF2FC4 /* YZSugarRemindViewController.m */,
+			);
+			name = sugarRemind;
+			path = YZDiabetes/models/sugarRemind;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D981A74D2A000CF2FC4 /* sugarData */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D9D1A74D36B00CF2FC4 /* YZSugarDataViewController.h */,
+				5E1D9D9E1A74D36B00CF2FC4 /* YZSugarDataViewController.m */,
+			);
+			name = sugarData;
+			path = YZDiabetes/models/sugarData;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E1D9D991A74D2A800CF2FC4 /* sugarFriendDon */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9DB21A74DA5600CF2FC4 /* YZSugarFriendDonViewController.h */,
+				5E1D9DB31A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m */,
+				5E1D9DA91A74D9F900CF2FC4 /* YZSFDFirstCell.h */,
+				5E1D9DAA1A74D9F900CF2FC4 /* YZSFDFirstCell.m */,
+				5E1D9DAC1A74DA1100CF2FC4 /* YZSFDSecondCell.h */,
+				5E1D9DAD1A74DA1100CF2FC4 /* YZSFDSecondCell.m */,
+				5E1D9DAF1A74DA3100CF2FC4 /* YZSFDThirdCell.h */,
+				5E1D9DB01A74DA3100CF2FC4 /* YZSFDThirdCell.m */,
+				5E1D9DB81A74DE5E00CF2FC4 /* YZSugarFriendDonDelegate.h */,
+			);
+			name = sugarFriendDon;
+			path = YZDiabetes/models/sugarFriendDon;
+			sourceTree = SOURCE_ROOT;
+		};
+		5E6B7E631A732F8A00C92833 = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E6E1A732F8A00C92833 /* YZDiabetes */,
+				5E6B7E881A732F8A00C92833 /* YZDiabetesTests */,
+				5E6B7E6D1A732F8A00C92833 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E6B7E6D1A732F8A00C92833 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E6C1A732F8A00C92833 /* YZDiabetes.app */,
+				5E6B7E851A732F8A00C92833 /* YZDiabetesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E6B7E6E1A732F8A00C92833 /* YZDiabetes */ = {
+			isa = PBXGroup;
+			children = (
+				5E1D9D761A74C2EC00CF2FC4 /* viewControllers */,
+				5E1D9D751A74C2E500CF2FC4 /* dataController */,
+				5E1D9D741A74C2DE00CF2FC4 /* models */,
+				5E1D9D731A74C2D600CF2FC4 /* baseUtil */,
+				5E6B7E731A732F8A00C92833 /* AppDelegate.h */,
+				5E6B7E741A732F8A00C92833 /* AppDelegate.m */,
+				5E6B7E791A732F8A00C92833 /* Main.storyboard */,
+				5E6B7E7C1A732F8A00C92833 /* Images.xcassets */,
+				5E6B7E7E1A732F8A00C92833 /* LaunchScreen.xib */,
+				5E6B7E6F1A732F8A00C92833 /* Supporting Files */,
+			);
+			path = YZDiabetes;
+			sourceTree = "<group>";
+		};
+		5E6B7E6F1A732F8A00C92833 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E701A732F8A00C92833 /* Info.plist */,
+				5E6B7E711A732F8A00C92833 /* main.m */,
+				5E1D9D8A1A74CF7300CF2FC4 /* pch.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E6B7E881A732F8A00C92833 /* YZDiabetesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E8B1A732F8A00C92833 /* YZDiabetesTests.m */,
+				5E6B7E891A732F8A00C92833 /* Supporting Files */,
+			);
+			path = YZDiabetesTests;
+			sourceTree = "<group>";
+		};
+		5E6B7E891A732F8A00C92833 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B7E8A1A732F8A00C92833 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E6B7E6B1A732F8A00C92833 /* YZDiabetes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6B7E8F1A732F8A00C92833 /* Build configuration list for PBXNativeTarget "YZDiabetes" */;
+			buildPhases = (
+				5E6B7E681A732F8A00C92833 /* Sources */,
+				5E6B7E691A732F8A00C92833 /* Frameworks */,
+				5E6B7E6A1A732F8A00C92833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZDiabetes;
+			productName = YZDiabetes;
+			productReference = 5E6B7E6C1A732F8A00C92833 /* YZDiabetes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E6B7E841A732F8A00C92833 /* YZDiabetesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6B7E921A732F8A00C92833 /* Build configuration list for PBXNativeTarget "YZDiabetesTests" */;
+			buildPhases = (
+				5E6B7E811A732F8A00C92833 /* Sources */,
+				5E6B7E821A732F8A00C92833 /* Frameworks */,
+				5E6B7E831A732F8A00C92833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E6B7E871A732F8A00C92833 /* PBXTargetDependency */,
+			);
+			name = YZDiabetesTests;
+			productName = YZDiabetesTests;
+			productReference = 5E6B7E851A732F8A00C92833 /* YZDiabetesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6B7E641A732F8A00C92833 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yuzhao;
+				TargetAttributes = {
+					5E6B7E6B1A732F8A00C92833 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5E6B7E841A732F8A00C92833 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5E6B7E6B1A732F8A00C92833;
+					};
+				};
+			};
+			buildConfigurationList = 5E6B7E671A732F8A00C92833 /* Build configuration list for PBXProject "YZDiabetes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E6B7E631A732F8A00C92833;
+			productRefGroup = 5E6B7E6D1A732F8A00C92833 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E6B7E6B1A732F8A00C92833 /* YZDiabetes */,
+				5E6B7E841A732F8A00C92833 /* YZDiabetesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6B7E6A1A732F8A00C92833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6B7E7B1A732F8A00C92833 /* Main.storyboard in Resources */,
+				5E6B7E801A732F8A00C92833 /* LaunchScreen.xib in Resources */,
+				5E6B7E7D1A732F8A00C92833 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6B7E831A732F8A00C92833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E6B7E681A732F8A00C92833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1D9DCD1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m in Sources */,
+				5E1D9DA51A74D3BD00CF2FC4 /* YZSugarRemindViewController.m in Sources */,
+				5E1D9DBE1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m in Sources */,
+				5E1D9D801A74C40800CF2FC4 /* YZLoginLogoCell.m in Sources */,
+				5E6B7E981A73306E00C92833 /* YZMainTableViewController.m in Sources */,
+				5E1D9DB11A74DA3100CF2FC4 /* YZSFDThirdCell.m in Sources */,
+				5E1D9D841A74C95500CF2FC4 /* YZGlobalColorSetUtil.m in Sources */,
+				5E1D9D9F1A74D36B00CF2FC4 /* YZSugarDataViewController.m in Sources */,
+				5E1D9D7D1A74C35600CF2FC4 /* YZLoginViewController.m in Sources */,
+				5E1D9DC71A7513AA00CF2FC4 /* YZSSshopViewController.m in Sources */,
+				5E1D9DD31A752AAC00CF2FC4 /* YZAdaptiveUtil.m in Sources */,
+				5E1D9DAE1A74DA1100CF2FC4 /* YZSFDSecondCell.m in Sources */,
+				5E1D9DAB1A74D9F900CF2FC4 /* YZSFDFirstCell.m in Sources */,
+				5E1D9DC41A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m in Sources */,
+				5E6B7E751A732F8A00C92833 /* AppDelegate.m in Sources */,
+				5E1D9DB41A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m in Sources */,
+				5E1D9DCA1A75147400CF2FC4 /* YZSSshopCell.m in Sources */,
+				5E1D9DD01A75258C00CF2FC4 /* YZSSfeedBackViewController.m in Sources */,
+				5E1D9DC11A74F34100CF2FC4 /* YZSSHeadCell.m in Sources */,
+				5E6B7E721A732F8A00C92833 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6B7E811A732F8A00C92833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6B7E8C1A732F8A00C92833 /* YZDiabetesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E6B7E871A732F8A00C92833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6B7E6B1A732F8A00C92833 /* YZDiabetes */;
+			targetProxy = 5E6B7E861A732F8A00C92833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E6B7E791A732F8A00C92833 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6B7E7A1A732F8A00C92833 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E6B7E7E1A732F8A00C92833 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E6B7E7F1A732F8A00C92833 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E6B7E8D1A732F8A00C92833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E6B7E8E1A732F8A00C92833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E6B7E901A732F8A00C92833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = YZDiabetes/pch.pch;
+				INFOPLIST_FILE = YZDiabetes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E6B7E911A732F8A00C92833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = YZDiabetes/pch.pch;
+				INFOPLIST_FILE = YZDiabetes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E6B7E931A732F8A00C92833 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YZDiabetesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZDiabetes.app/YZDiabetes";
+			};
+			name = Debug;
+		};
+		5E6B7E941A732F8A00C92833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YZDiabetesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZDiabetes.app/YZDiabetes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E6B7E671A732F8A00C92833 /* Build configuration list for PBXProject "YZDiabetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6B7E8D1A732F8A00C92833 /* Debug */,
+				5E6B7E8E1A732F8A00C92833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6B7E8F1A732F8A00C92833 /* Build configuration list for PBXNativeTarget "YZDiabetes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6B7E901A732F8A00C92833 /* Debug */,
+				5E6B7E911A732F8A00C92833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6B7E921A732F8A00C92833 /* Build configuration list for PBXNativeTarget "YZDiabetesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6B7E931A732F8A00C92833 /* Debug */,
+				5E6B7E941A732F8A00C92833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E6B7E641A732F8A00C92833 /* Project object */;
+}
