@@ -28,14 +28,24 @@
     sugarFriendController.view.backgroundColor = [UIColor whiteColor];
     [sugarFriendController.tabBarItem setImage:[UIImage imageNamed:@"tab_TYT.png"]];
     UINavigationController *sfNav = [[UINavigationController alloc] initWithRootViewController:sugarFriendController];
-    YZSugarDataViewController *sugarDataController = [[YZSugarDataViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    YZSugarDataViewController *sugarDataController = [[YZSugarDataViewController alloc]init];
     sugarDataController.title = @"数据";
     [sugarDataController.tabBarItem setImage:[UIImage imageNamed:@"tab_SJ.png"]];
-    UINavigationController *sdNav = [[UINavigationController alloc] initWithRootViewController:sugarDataController];
+    UINavigationController *sdNav = [[UINavigationController alloc]initWithRootViewController:sugarDataController];
+    
+//    YZSugarDataViewController *sugarDataController = [[YZSugarDataViewController alloc] initWithStyle:UITableViewStylePlain];
+//    sugarDataController.title = @"数据";
+//    [sugarDataController.tabBarItem setImage:[UIImage imageNamed:@"tab_SJ.png"]];
+//    UINavigationController *sdNav = [[UINavigationController alloc] initWithRootViewController:sugarDataController];
+    
+    
     YZSugarRemindViewController *sugarRemindController = [[YZSugarRemindViewController alloc] initWithStyle:UITableViewStylePlain];
     sugarRemindController.title = @"提醒";
     [sugarRemindController.tabBarItem setImage:[UIImage imageNamed:@"tab_TX.png"]];
     UINavigationController *srNav = [[UINavigationController alloc] initWithRootViewController:sugarRemindController];
+    
+    
     YZSugarServiceTableViewController *sugarServiceController = [[YZSugarServiceTableViewController alloc] initWithStyle:UITableViewStylePlain];
     sugarServiceController.title = @"服务";
     [sugarServiceController.tabBarItem setImage:[UIImage imageNamed:@"tab_FU.png"]];

@@ -35,6 +35,7 @@
     [self addSubview:reportButton];
 
 }
+
 - (void)clicked:(UIButton *)button{
     if (button.tag == 101) {
         if ([_delegate respondsToSelector:@selector(selectedRecordButton:)]) {
