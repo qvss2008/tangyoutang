@@ -10,7 +10,8 @@
 
 @protocol YZRemindWayCellDelegate <NSObject>
 
-- (void)tapSelected:(BOOL)selected;
+- (void)tapYuYinSelected:(BOOL)selected;
+- (void)tapMusicSelected:(BOOL)selected;
 
 @end
 @interface YZRemindWayCell : UITableViewCell
@@ -19,4 +20,5 @@
 @property (nonatomic,strong)UIImageView *yuYinImgView;
 @property (nonatomic,strong)UIImageView *musicImgView;
 @property (nonatomic) BOOL yuyinSelected;
+@property (nonatomic) BOOL musicSelected;
 @end

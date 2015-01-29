@@ -134,7 +134,16 @@
     return nil;
 }
 
-- (void)tapSelected:(BOOL)selected{
+- (void)tapYuYinSelected:(BOOL)selected{
+    if (selected) {
+        
+    }else{
+        
+    }
+}
+
+- (void)tapMusicSelected:(BOOL)selected
+{
     if (selected) {
         
     }else{
