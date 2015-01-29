@@ -30,10 +30,10 @@
 		5E6B7E801A732F8A00C92833 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6B7E7E1A732F8A00C92833 /* LaunchScreen.xib */; };
 		5E6B7E8C1A732F8A00C92833 /* YZDiabetesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E8B1A732F8A00C92833 /* YZDiabetesTests.m */; };
 		5E6B7E981A73306E00C92833 /* YZMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B7E971A73306E00C92833 /* YZMainTableViewController.m */; };
-		B9CB18961A788EE100B2ADDC /* YZSugarDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CB18951A788EE100B2ADDC /* YZSugarDataViewController.m */; };
-		B9CB18991A78FF4400B2ADDC /* YSChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CB18981A78FF4400B2ADDC /* YSChartCell.m */; };
 		B9CE318B1A7743A600D1750D /* YZRemindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE318A1A7743A600D1750D /* YZRemindCell.m */; };
 		B9CE318E1A77A85F00D1750D /* YZRemindWayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE318D1A77A85F00D1750D /* YZRemindWayCell.m */; };
+		B9CFC3F51A79D42200B80D16 /* YSChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC3F21A79D42200B80D16 /* YSChartCell.m */; };
+		B9CFC3F61A79D42200B80D16 /* YZSugarDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CFC3F41A79D42200B80D16 /* YZSugarDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,14 +94,14 @@
 		5E6B7E8B1A732F8A00C92833 /* YZDiabetesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDiabetesTests.m; sourceTree = "<group>"; };
 		5E6B7E961A73306E00C92833 /* YZMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZMainTableViewController.h; path = ../../YZMainTableViewController.h; sourceTree = "<group>"; };
 		5E6B7E971A73306E00C92833 /* YZMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZMainTableViewController.m; path = ../../YZMainTableViewController.m; sourceTree = "<group>"; };
-		B9CB18941A788EE100B2ADDC /* YZSugarDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZSugarDataViewController.h; path = ../../../../../../Documents/YZSugarDataViewController.h; sourceTree = "<group>"; };
-		B9CB18951A788EE100B2ADDC /* YZSugarDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZSugarDataViewController.m; path = ../../../../../../Documents/YZSugarDataViewController.m; sourceTree = "<group>"; };
-		B9CB18971A78FF4400B2ADDC /* YSChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSChartCell.h; path = ../../../../../../Documents/YSChartCell.h; sourceTree = "<group>"; };
-		B9CB18981A78FF4400B2ADDC /* YSChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSChartCell.m; path = ../../../../../../Documents/YSChartCell.m; sourceTree = "<group>"; };
 		B9CE31891A7743A600D1750D /* YZRemindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZRemindCell.h; sourceTree = "<group>"; };
 		B9CE318A1A7743A600D1750D /* YZRemindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZRemindCell.m; sourceTree = "<group>"; };
 		B9CE318C1A77A85F00D1750D /* YZRemindWayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZRemindWayCell.h; sourceTree = "<group>"; };
 		B9CE318D1A77A85F00D1750D /* YZRemindWayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZRemindWayCell.m; sourceTree = "<group>"; };
+		B9CFC3F11A79D42200B80D16 /* YSChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSChartCell.h; path = YZDiabetes/viewControllers/sugarData/YSChartCell.h; sourceTree = SOURCE_ROOT; };
+		B9CFC3F21A79D42200B80D16 /* YSChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSChartCell.m; path = YZDiabetes/viewControllers/sugarData/YSChartCell.m; sourceTree = SOURCE_ROOT; };
+		B9CFC3F31A79D42200B80D16 /* YZSugarDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZSugarDataViewController.h; path = YZDiabetes/viewControllers/sugarData/YZSugarDataViewController.h; sourceTree = SOURCE_ROOT; };
+		B9CFC3F41A79D42200B80D16 /* YZSugarDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZSugarDataViewController.m; path = YZDiabetes/viewControllers/sugarData/YZSugarDataViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,10 +306,10 @@
 		5E1D9D981A74D2A000CF2FC4 /* sugarData */ = {
 			isa = PBXGroup;
 			children = (
-				B9CB18941A788EE100B2ADDC /* YZSugarDataViewController.h */,
-				B9CB18951A788EE100B2ADDC /* YZSugarDataViewController.m */,
-				B9CB18971A78FF4400B2ADDC /* YSChartCell.h */,
-				B9CB18981A78FF4400B2ADDC /* YSChartCell.m */,
+				B9CFC3F31A79D42200B80D16 /* YZSugarDataViewController.h */,
+				B9CFC3F41A79D42200B80D16 /* YZSugarDataViewController.m */,
+				B9CFC3F11A79D42200B80D16 /* YSChartCell.h */,
+				B9CFC3F21A79D42200B80D16 /* YSChartCell.m */,
 			);
 			name = sugarData;
 			path = YZDiabetes/models/sugarData;
@@ -497,10 +497,10 @@
 				5E1D9DCD1A751B7200CF2FC4 /* YZSSgoodsDetilViewController.m in Sources */,
 				5E1D9DA51A74D3BD00CF2FC4 /* YZSugarRemindViewController.m in Sources */,
 				5E1D9DBE1A74F1CA00CF2FC4 /* YZSugarServiceTableViewController.m in Sources */,
+				B9CFC3F61A79D42200B80D16 /* YZSugarDataViewController.m in Sources */,
 				B9CE318E1A77A85F00D1750D /* YZRemindWayCell.m in Sources */,
 				5E1D9D801A74C40800CF2FC4 /* YZLoginLogoCell.m in Sources */,
 				5E6B7E981A73306E00C92833 /* YZMainTableViewController.m in Sources */,
-				B9CB18961A788EE100B2ADDC /* YZSugarDataViewController.m in Sources */,
 				5E1D9DB11A74DA3100CF2FC4 /* YZSFDThirdCell.m in Sources */,
 				5E1D9D841A74C95500CF2FC4 /* YZGlobalColorSetUtil.m in Sources */,
 				5E1D9D7D1A74C35600CF2FC4 /* YZLoginViewController.m in Sources */,
@@ -509,11 +509,11 @@
 				5E1D9DAE1A74DA1100CF2FC4 /* YZSFDSecondCell.m in Sources */,
 				5E1D9DAB1A74D9F900CF2FC4 /* YZSFDFirstCell.m in Sources */,
 				5E1D9DC41A75061000CF2FC4 /* YZSSpersonDetilTableViewController.m in Sources */,
+				B9CFC3F51A79D42200B80D16 /* YSChartCell.m in Sources */,
 				B9CE318B1A7743A600D1750D /* YZRemindCell.m in Sources */,
 				5E6B7E751A732F8A00C92833 /* AppDelegate.m in Sources */,
 				5E1D9DB41A74DA5600CF2FC4 /* YZSugarFriendDonViewController.m in Sources */,
 				5E1D9DCA1A75147400CF2FC4 /* YZSSshopCell.m in Sources */,
-				B9CB18991A78FF4400B2ADDC /* YSChartCell.m in Sources */,
 				5E1D9DD01A75258C00CF2FC4 /* YZSSfeedBackViewController.m in Sources */,
 				5E1D9DC11A74F34100CF2FC4 /* YZSSHeadCell.m in Sources */,
 				5E6B7E721A732F8A00C92833 /* main.m in Sources */,
