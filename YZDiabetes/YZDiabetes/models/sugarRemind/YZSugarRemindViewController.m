@@ -9,7 +9,7 @@
 #import "YZSugarRemindViewController.h"
 #import "YZRemindCell.h"
 #import "YZRemindWayCell.h"
-@interface YZSugarRemindViewController ()
+@interface YZSugarRemindViewController () <YZRemindWayCellDelegate>
 
 @property (nonatomic)YZRemindCell *medicineCell;
 @property (nonatomic)YZRemindCell *foodCell;
@@ -123,6 +123,7 @@
             if (!self.remindWayCell) {
                 self.remindWayCell = [[YZRemindWayCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"remindWayCell"];
             }
+            self.remindWayCell.delegate = self;
             return self.remindWayCell;
         }
 
@@ -133,6 +134,13 @@
     return nil;
 }
 
+- (void)tapSelected:(BOOL)selected{
+    if (selected) {
+        
+    }else{
+        
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.

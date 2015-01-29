@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol YZRemindWayCellDelegate <NSObject>
+
+- (void)tapSelected:(BOOL)selected;
+
+@end
 @interface YZRemindWayCell : UITableViewCell
+@property (nonatomic) id<YZRemindWayCellDelegate>delegate;
 @property (nonatomic,strong)UILabel *remindWayLab;
 @property (nonatomic,strong)UIImageView *yuYinImgView;
 @property (nonatomic,strong)UIImageView *musicImgView;
-
+@property (nonatomic) BOOL yuyinSelected;
 @end

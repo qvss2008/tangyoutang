@@ -10,6 +10,7 @@
 #define YZDiabetes_pch_pch
 #define BAR_TINT_COLOR [UIColor colorWithRed:135.0f/255.0f green:206.0f/255.0f blue:235.0f/255.0f alpha:1.0f]
 #define BAR_TEXT_COLOR [UIColor colorWithRed:245.0f/255.0f green:245.0f/255.0f blue:245.0f/255.0f alpha:1.0f]
+#define BAR_SUJI_COLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
