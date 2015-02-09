@@ -24,13 +24,13 @@
     UIButton *recordButton = [UIButton buttonWithType:UIButtonTypeCustom];
     recordButton.frame = CGRectMake(0, 0, width, 100);
     recordButton.tag = 101;
-    [recordButton setBackgroundImage:[UIImage imageNamed:@"TYT_jlxt.png"] forState:UIControlStateNormal];
+    [recordButton setBackgroundImage:[UIImage imageNamed:@"TYT_jl.png"] forState:UIControlStateNormal];
     [recordButton addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:recordButton];
     UIButton *reportButton = [UIButton buttonWithType:UIButtonTypeCustom];
     reportButton.frame = CGRectMake(width, 0, width, 100);
     reportButton.tag = 102;
-    [reportButton setBackgroundImage:[UIImage imageNamed:@"TYT_xtbg.png"] forState:UIControlStateNormal];
+    [reportButton setBackgroundImage:[UIImage imageNamed:@"TYT_bg.png"] forState:UIControlStateNormal];
     [reportButton addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:reportButton];
 

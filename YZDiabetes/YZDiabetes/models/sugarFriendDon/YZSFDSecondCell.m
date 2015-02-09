@@ -32,7 +32,7 @@
     UIButton *informationButton = [UIButton buttonWithType:UIButtonTypeCustom];
     informationButton.frame = CGRectMake(width + 30, 0, width - 30, 100);
     informationButton.tag = 102;
-    [informationButton setBackgroundImage:[UIImage imageNamed:@"TYT_Massage.png"] forState:UIControlStateNormal];
+    [informationButton setBackgroundImage:[UIImage imageNamed:@"TYT_massage.png"] forState:UIControlStateNormal];
     [informationButton addTarget:self action:@selector(clicked:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:informationButton];
 

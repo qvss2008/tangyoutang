@@ -8,8 +8,9 @@
 
 #import "YZSugarDataViewController.h"
 #import "YSChartCell.h"
+#import "UMSocial.h"
 
-@interface YZSugarDataViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface YZSugarDataViewController ()<UITableViewDataSource,UITableViewDelegate,UMSocialUIDelegate>
 @property (nonatomic)YSChartCell *chartCell;
 
 @end
@@ -37,7 +38,12 @@
 
 - (void)shareTTT
 {
-    
+    [UMSocialSnsService presentSnsIconSheetView:self
+                                         appKey:@"54d2df92fd98c530530004cb"
+                                      shareText:@"糖友堂是一款致力于糖尿病患者与医生的交互软件，糖友可以通过该软件取得与医生得联系，并通过医师在线诊疗充分把控自己的健康信息！"
+                                     shareImage:[UIImage imageNamed:@"icon"]
+                                shareToSnsNames:nil
+                                       delegate:self];
 }
 
 #pragma mark DataPickView

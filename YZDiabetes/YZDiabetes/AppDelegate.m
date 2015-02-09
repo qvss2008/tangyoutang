@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "YZMainTableViewController.h"
 #import "YZGlobalColorSetUtil.h"
+#import "UMSocial.h"
 @interface AppDelegate ()
 
 @end
@@ -21,6 +22,7 @@
     YZMainTableViewController *mainTableController = [[YZMainTableViewController alloc] init];
     [YZGlobalColorSetUtil shareInstance];
     self.window.rootViewController = mainTableController;
+    [UMSocialData setAppKey:@"54d2df92fd98c530530004cb"];
     return YES;
 }
 
